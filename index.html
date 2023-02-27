@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Projeto Filtros de Imagem</title>
+
+<body>
+  <div align="center">
+    <h1>Filtros de Imagem</h1>
+    <input id='Neg_Button' type='button' value="Negativo" onclick="return Neg_Button_onclick()" />
+    <input id='Gray_Button' type='button' value="Cinza" onclick="return Gray_Button_onclick()" />
+    <input id='Black_Button' type='button' value="Branco e preto" onclick="return Black_Button_onclick()" />
+    <input id='Sepia_Button' type='button' value="Sepia" onclick="return Sepia_Button_onclick()" />
+    <input id='Red_Button' type='button' value="Vermelho" onclick="return Red_Button_onclick()" />
+    <input id='Green_Button' type='button' value="Verde" onclick="return Green_Button_onclick()" />
+    <input id='Blue_Button' type='button' value="Azul" onclick="return Blue_Button_onclick()" />
+    <input id='Swap_Button' type='button' value="Trocar Canal" onclick="return Swap_Button_onclick()" />
+    <br>
+    <br>
+    <img src="bonito.jpg" width="640" height="426">
+    <br>
+    <br>
+    <canvas id='canvas' width='640' height='426'>
+      Sorry,Canvas is not supported in this Browser..
+    </canvas>
+  </div>
+  <script src='script.js'></script>
+</body>
